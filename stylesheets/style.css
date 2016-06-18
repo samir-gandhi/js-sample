@@ -1,0 +1,113 @@
+body{
+	background: #f9e933;
+	font-family: "Droid Sans", sans-serif;
+}
+
+h2, h3, h4{
+	font-family: "Ubuntu", sans-serif;
+}
+
+h1{
+	font-family: "Ubuntu", sans-serif;
+	font-size: 3em;
+}
+
+h2{
+	font-size: 2em;
+	font-weight: bold;
+	margin: 20px 0 10px 0;
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+h5 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.25em;
+    margin-bottom: 20px;
+}
+
+a{
+	color: LightCoral;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header, main, footer{
+	min-width: 855px;
+}
+
+header .container, main .container, footer .container{
+	max-width: 855px;
+	margin: auto;
+}
+
+header{
+	padding: 25px 0 25px 0;
+	background: white;
+	overflow: auto;
+	border-bottom: 1px solid #ddd;
+}
+
+header h1{
+	float: left;
+	width: 570px;
+	font-style: italic;
+	color: IndianRed;
+
+}
+
+header nav{
+	float: right;
+	width: 285px;
+}
+
+main{
+	background: white;
+	overflow: auto;
+	padding: 40px;
+	border-radius: 0 5px 5px 5px;
+
+}
+
+.tabs a span {
+    display: inline-block;
+    border-radius: 5px 5px 0 0;
+    width: 100px;
+    margin-right: 10px;
+    text-align: center;
+    background: #ddd;
+    padding: 5px;
+}
+
+.tabs a span.active{
+    background: #eee;
+}
+
+footer{
+	overflow: auto;
+}
+
+footer div .contact{
+	float: left;
+	width: 570px;
+}
+
+footer .contact p:nth-child(2) {
+  color: IndianRed;
+  font-style: italic;
+}
+
+footer div .sitemap{
+	float: right;
+	width: 285px;
+}
